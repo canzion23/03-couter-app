@@ -8,10 +8,9 @@ const CounterApp = ({ value }) => {
   const [counter, setCounter] = useState(0); // []
 
   //HandleAdd
-  const handleAdd = () => {
-    setCounter(counter + 1);
-    // setCounter ( (c) =>  c + 1);
-  };
+  const handleAdd = () => setCounter(counter + 1);
+  // Recibiendo un argumento y devolviendo el resultado de una función
+  // setCounter ( (c) =>  c + 1);
 
   const handleSubtract = () => setCounter(counter - 1);
 
