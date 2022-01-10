@@ -22,7 +22,7 @@ describe('Prueba con promesas', () => {
     test('debe de obtener un error si el héroe por id no existente', ( done ) => {
        
         const id = 10;
-        getHeroeByIdAsync( id )            
+        getHeroeByIdAsync( id )
         .catch( error => {
             expect( error ).toBe( 'No se pudo encontrar el héroe');
             done();
