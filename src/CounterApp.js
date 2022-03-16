@@ -6,7 +6,7 @@ const CounterApp = ({ value }) => {
   
   // console.log(`Valor recibido como propiedad: ${value}`);
 
-  const [counter, setCounter] = useState(0); // []
+  const [counter, setCounter] = useState( value ); // []
 
   //HandleAdd
   const handleAdd = () => setCounter(counter + 1);
